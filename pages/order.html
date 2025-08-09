@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Order – SweetRoot Bakery</title>
+  <link rel="stylesheet" href="orderi.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1 class="logo">SweetRoot Bakery</h1>
+    <nav>
+      <a href="b.html">Home</a>
+      <a href="menui.html">Menu</a>
+      <a href="abouti.html">About</a>
+      <a href="galleryi.html">Gallery</a>
+      <a href="contacti.html">Contact</a>
+      <a href="orderi.html" class="active">Order</a>
+    </nav>
+  </header>
+
+  <section class="order-hero">
+    <h2>Place Your Order</h2>
+    <p>Freshly baked, just for you. Handmade with love.</p>
+  </section>
+
+  <section class="order-form-section">
+    <form class="order-form">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" required>
+
+      <label for="date">Pick-up Date</label>
+      <input type="date" id="date" required>
+
+      <label for="cake-type">Cake Type</label>
+      <select id="cake-type" required>
+        <option value="" disabled selected>Select an option</option>
+        <option>Wedding Cake</option>
+        <option>Birthday Cake</option>
+        <option>Seasonal Cake</option>
+        <option>Cupcake</option>
+        <option>Cookies</option>
+      </select>
+
+      <label for="message">Custom Message (optional)</label>
+      <textarea id="message" rows="4" placeholder="e.g. Happy Birthday, Sarah!"></textarea>
+
+      <p class="payment-note">💸 Payment will be handled offline at the time of pickup or delivery.</p>
+
+      <button type="submit">Submit Order</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>2025 SweetRoot Bakery. Baked with Love.</p>
+  </footer>
+</body>
+</html>

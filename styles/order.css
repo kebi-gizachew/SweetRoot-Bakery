@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background: #fffaf8;
+  color: #4b3b3b;
+}
+
+header {
+  background-color: #ffeef2;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+  color: #d16e8d;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #6b4f4f;
+  font-weight: bold;
+}
+
+nav a.active {
+  color: #d16e8d;
+}
+
+.order-hero {
+  background: linear-gradient(to right, #ffeef2, #e6f7f5);
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.order-hero h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+  color: #d16e8d;
+}
+
+.order-hero p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.order-form-section {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.order-form label {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.order-form input,
+.order-form select,
+.order-form textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.order-form textarea {
+  resize: none;
+}
+
+.payment-note {
+  margin: 20px 0 10px;
+  font-style: italic;
+  color: #6b4f4f;
+}
+
+button {
+  background-color: #d16e8d;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #c05577;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  font-size: 0.9rem;
+  color: #8a6a6a;
+}

@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background: linear-gradient(to right, #ffe6e6, #e6fff5);
+  color: #5e4b47;
+  width:100vw;
+  overflow:hidden;
+  height:100vh;
+}
+
+.hero {
+  min-height: 10vh;
+  display: flex;
+  align-items:center;
+  justify-content:space-between;
+  padding: 40px 120px;
+}
+.icons{
+width:20%;
+height:100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.logo {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+  color: #cc6f7c;
+}
+main{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:100vw;
+  height:80vh;
+}
+.hero-content h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3.5rem;
+  color: #d46a92;
+  margin-bottom: 10px;
+  margin-left:-50px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  color: #665252;
+  margin-bottom: 20px;
+}
+li{
+  list-style: none;
+  font-size: 1.2rem;
+  color: #665252;
+  margin-bottom: 10px;
+}
+.cta {
+  background-color: #fcd5ce;
+  color: #8b4e5b;
+  border: none;
+  padding: 12px 28px;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.cta:hover {
+  background-color: #fcbfbe;
+}
+
+.cake-images {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  gap: 30px;
+  height:600px;
+}
+@media(max-width:900px){
+  img{
+    position:absolute;
+    top: 10%;
+    left: 65%;
+    width: 300px;
+    height:60%;
+  }
+  .hero-content h1{
+    font-size: 2.5rem;
+    margin-left: -19px;
+  }
+}
