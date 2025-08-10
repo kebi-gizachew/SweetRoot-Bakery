@@ -95,6 +95,9 @@ nav a:active {
   border-color: var(--logoColor);
   outline: none;
 }
+.order-form input:hover{
+  border-color: var(--logoColor);
+}
 .order-form textarea {
   resize: none;
 }
