@@ -29,7 +29,6 @@ Local dessert lovers
 │   ├── about.html
 │   ├── contact.html
 │   ├── gallery.html
-│   ├── index.html
 │   ├── menu.html
 │   └── order.html
 ├── public/
@@ -42,6 +41,7 @@ Local dessert lovers
 │   ├── index.css
 │   ├── menu.css
 │   └── order.css
+│── index.html
 └── README.md
 ## 🔗 Live Demo & Design
 
