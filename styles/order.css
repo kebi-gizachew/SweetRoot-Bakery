@@ -91,7 +91,10 @@ nav a:active {
   border-radius: 10px;
   font-size: 1rem;
 }
-
+.order-form input:focus{
+  border-color: var(--logoColor);
+  outline: none;
+}
 .order-form textarea {
   resize: none;
 }
