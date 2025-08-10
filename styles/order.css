@@ -1,3 +1,13 @@
+:root{
+  --textColor:#4b3b3b;
+  --backgroundColor:#fffaf8;
+  --logoColor:#d16e8d;
+  --footerColor:#8a6a6a;
+  
+}
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -6,8 +16,8 @@
 
 body {
   font-family: 'Quicksand', sans-serif;
-  background: #fffaf8;
-  color: #4b3b3b;
+  background: var(--backgroundColor);
+  color: var(--textColor);
 }
 
 header {
@@ -19,7 +29,7 @@ header {
 .logo {
   font-family: 'Pacifico', cursive;
   font-size: 2.5rem;
-  color: #d16e8d;
+  color: var(--logoColor);
 }
 
 nav {
@@ -33,7 +43,7 @@ nav a {
   font-weight: bold;
 }
 
-nav a.active {
+nav a:active {
   color: #d16e8d;
 }
 
@@ -94,7 +104,7 @@ nav a.active {
 }
 
 button {
-  background-color: #d16e8d;
+  background-color:var(--logoColor);
   color: white;
   border: none;
   padding: 12px;
@@ -113,5 +123,5 @@ footer {
   text-align: center;
   padding: 30px;
   font-size: 0.9rem;
-  color: #8a6a6a;
+  color: var(--footerColor);
 }
