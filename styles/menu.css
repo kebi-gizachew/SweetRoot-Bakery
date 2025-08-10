@@ -1,3 +1,11 @@
+:root{
+  --bgColor:#fffaf7;
+  --textColor:#5e4b47;
+  --linkColor:#d46a92;
+  --logoColor:#d46a92;
+  --footerColor:#7d4f50;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,12 +14,12 @@
 
 body {
   font-family: 'Quicksand', sans-serif;
-  background: #fffaf7;
-  color: #5e4b47;
+  background: var(--bgColor);
+  color: var(--textColor);
 }
 
 a {
-  color: #d46a92;
+  color: var(--linkColor);
   text-decoration: none;
 }
 nav{
@@ -36,7 +44,7 @@ nav a:hover{
 .logo {
   font-family: 'Dancing Script', cursive;
   font-size: 2.2rem;
-  color: #d46a92;
+  color: var(--logoColor);
 }
 
 .menu-header nav a {
@@ -121,5 +129,5 @@ nav a:hover{
   text-align: center;
   padding: 20px;
   font-size: 0.9rem;
-  color: #7d4f50;
+  color: var(--footerColor);
 }
