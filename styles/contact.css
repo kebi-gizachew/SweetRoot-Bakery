@@ -1,3 +1,5 @@
+
+/*a variable for colors*/
 :root{
   --bgColor:#fffefc;
   --textColor:#5e4b47;
@@ -44,7 +46,7 @@ nav a:hover{
   align-items: center;
   padding: 20px 40px;
 }
-
+/*font family hand written like*/
 .logo {
   font-family: 'Dancing Script', cursive;
   font-size: 2.2rem;

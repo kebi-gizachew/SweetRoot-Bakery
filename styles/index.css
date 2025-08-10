@@ -1,3 +1,4 @@
+/*we can use root variables to define colors and other styles that can be reused throughout the CSS*/
 :root{
   --textColor:#5e4b47;
   --logoColor:#cc6f7c;
@@ -7,7 +8,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/*except the logo text we will use the noraml font family*/
 body {
   font-family: 'Quicksand', sans-serif;
   background: linear-gradient(to right, #ffe6e6, #e6fff5);
@@ -87,7 +88,8 @@ li{
   gap: 30px;
   height:600px;
 }
-@media(max-width:900px){
+/*for tablet sized media query*/
+@media(max-width:1200px){
   body{
     overflow:hidden;
     height:100%;
