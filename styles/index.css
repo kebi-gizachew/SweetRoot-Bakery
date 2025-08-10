@@ -1,3 +1,9 @@
+:root{
+  --textColor:#5e4b47;
+  --logoColor:#cc6f7c;
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +13,7 @@
 body {
   font-family: 'Quicksand', sans-serif;
   background: linear-gradient(to right, #ffe6e6, #e6fff5);
-  color: #5e4b47;
+  color: var(--textColor);
   width:100vw;
   overflow:hidden;
   height:100vh;
@@ -31,7 +37,7 @@ height:10vh;
 .logo {
   font-family: 'Dancing Script', cursive;
   font-size: 3rem;
-  color: #cc6f7c;
+  color: var(--logoColor);
 }
 main{
   display:flex;
