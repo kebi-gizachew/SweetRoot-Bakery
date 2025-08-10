@@ -19,7 +19,7 @@ body {
   color: var(--textColor);
   line-height: 1.6;
 }
-
+/*linear gradient for the header*/
 .header {
   background: linear-gradient(to right, #ffe6e6, #e6fff5);
   display: flex;
@@ -31,7 +31,7 @@ a{
   text-decoration:none;
   color:var(--logoColor);
 }
-
+/*I used the hero letter as a logo*/
 .logo {
   font-family: 'Dancing Script', cursive;
   font-size: 2.2rem;
@@ -43,6 +43,7 @@ nav{
   align-items:center;
   width:400px;
 }
+/*i have added a hovering effect*/
 nav a:hover{
   color:black;
   font-weight:bold;

@@ -5,7 +5,7 @@
   --logoColor:#d46a92;
   --footerColor:#7d4f50;
 }
-
+/* Reset styles */
 * {
   margin: 0;
   padding: 0;
