@@ -2,8 +2,6 @@
   --textColor:#5e4b47;
   --logoColor:#cc6f7c;
 }
-
-
 * {
   margin: 0;
   padding: 0;
@@ -27,8 +25,8 @@ body {
   padding: 40px 120px;
 }
 .icons{
-width:30%;
-height:10vh;
+  width:30%;
+  height:10vh;
   display: flex;
   justify-content: space-around;
 }

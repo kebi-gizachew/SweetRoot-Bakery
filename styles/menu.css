@@ -17,7 +17,6 @@ body {
   background: var(--bgColor);
   color: var(--textColor);
 }
-
 a {
   color: var(--linkColor);
   text-decoration: none;
@@ -123,7 +122,6 @@ nav a:hover{
   font-weight: bold;
   color: #a65a68;
 }
-
 .footer {
   background-color: #fddde6;
   text-align: center;
