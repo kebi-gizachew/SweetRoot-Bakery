@@ -39,6 +39,15 @@ body {
   font-family: 'Dancing Script', cursive;
   font-size: 3rem;
   color: var(--logoColor);
+  animation:moveLogo 2s ease-in-out infinite alternate;
+}
+@keyframes moveLogo {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
 }
 main{
   display:flex;
