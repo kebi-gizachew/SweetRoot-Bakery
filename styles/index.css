@@ -21,8 +21,8 @@ body {
   padding: 40px 120px;
 }
 .icons{
-width:20%;
-height:100%;
+width:30%;
+height:10vh;
   display: flex;
   justify-content: space-around;
 }
@@ -30,7 +30,7 @@ height:100%;
 
 .logo {
   font-family: 'Dancing Script', cursive;
-  font-size: 2rem;
+  font-size: 3rem;
   color: #cc6f7c;
 }
 main{
@@ -84,15 +84,36 @@ li{
   height:600px;
 }
 @media(max-width:900px){
-  img{
+  body{
+    overflow:hidden;
+    height:100%;
+    width:300px;
+  }
+  main img{
     position:absolute;
-    top: 10%;
+    top: 30%;
     left: 65%;
     width: 300px;
     height:60%;
   }
   .hero-content h1{
-    font-size: 2.5rem;
-    margin-left: -19px;
+    font-size: 2rem;
+    margin-left:0px;
+  }
+  .hero{
+    margin:0;
+    padding: 20px;
+  }
+  .logo{
+    margin-left:0;
+    font-size:1.5rem
+  }
+  .icons{
+    width:30px;
+    height:10vh;
+  }
+  .icons img{
+    width:25px;
+    height:30px;
   }
 }
