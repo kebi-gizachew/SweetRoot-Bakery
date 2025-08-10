@@ -1,3 +1,12 @@
+:root{
+  --bgColor: #fff9f5;
+  --textColor: #5e4b47;
+  --logoColor: #d46a92;
+  --footerColor: #7d4f50;
+  --footerBg: #fddde6;
+
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,8 +15,8 @@
 
 body {
   font-family: 'Quicksand', sans-serif;
-  background: #fff9f5;
-  color: #5e4b47;
+  background: var(--bgColor);
+  color: var(--textColor);
   line-height: 1.6;
 }
 
@@ -20,13 +29,13 @@ body {
 }
 a{
   text-decoration:none;
-  color:#d46a92;
+  color:var(--logoColor);
 }
 
 .logo {
   font-family: 'Dancing Script', cursive;
   font-size: 2.2rem;
-  color: #d46a92;
+  color: var(--logoColor);
 }
 nav{
   display:flex;
@@ -117,9 +126,9 @@ nav a:hover{
 }
 
 .footer {
-  background-color: #fddde6;
+  background-color: var(--footerBg);
   text-align: center;
   padding: 20px;
   font-size: 0.9rem;
-  color: #7d4f50;
+  color:var(--footerColor);
 }
