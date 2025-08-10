@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Quicksand:wght@400;600&display=swap');
+
 /*we can use root variables to define colors and other styles that can be reused throughout the CSS*/
 :root{
   --textColor:#5e4b47;
