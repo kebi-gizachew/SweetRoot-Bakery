@@ -46,4 +46,4 @@ Local dessert lovers
 ## 🔗 Live Demo & Design
 
 - **Figma Design:** [View on Figma](https://www.figma.com/design/IrCFhhlnz1foJhSVQvUVmu/SweetRoot-Bakery?m=auto&t=xJSEs1Y65TMazV94-6)
-- **Live Website:** [View on Vercel](https://your-vercel-link.vercel.app)
+- **Live Website:** [View on github](https://kebi-gizachew.github.io/SweetRoot-Bakery/)
