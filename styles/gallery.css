@@ -55,7 +55,7 @@ header p {
   justify-items: center;
 }
 /*for tablet sized media query*/
-@media(max-width:1200px) and (min-width:700px){
+@media(max-width:1024px) and (min-width:700px){
   .gallery-item{
     width: 100%;
     height: auto;
